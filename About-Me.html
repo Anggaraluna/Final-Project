@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/png" href="anggaraluna-logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Curriculum Vitae</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 10px;
+        background-color: #efefef;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        border: 1px solid #e7e7e7;
+        background-color: #f3f3f3;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+      }
+  
+      li {
+        float: center;
+      }
+  
+      li a {
+        display: block;
+        color: #666;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+  
+      li a:hover:not(.active) {
+        background-color: #ddd;
+      }
+  
+      li a.active {
+        color: white;
+        background-color: #4CAF50;
+      }
+  
+      ul.sidenav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 25%;
+        background-color: #f1f1f1;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+      }
+  
+      ul.sidenav li a {
+        display: block;
+        color: #000;
+        padding: 8px 16px;
+        text-decoration: none;
+      }
+   
+      ul.sidenav li a.active {
+        background-color: #4CAF50;
+        color: white;
+      }
+  
+      ul.sidenav li a:hover:not(.active) {
+        background-color: #555;
+        color: white;
+      }
+  
+      div.content {
+        margin-left: 25%;
+        padding: 1px 16px;
+        height: 1000px;
+      }
+  
+      @media screen and (max-width: 900px) {
+      ul.sidenav {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+    
+      ul.sidenav li a {
+        float: left;
+        padding: 15px;
+      }
+    
+      div.content {margin-left: 0;}
+      }
+  
+      @media screen and (max-width: 400px) {
+      ul.sidenav li a {
+        text-align: center;
+        float: none;
+        }
+      }
+
+      h1 {
+        color: blue;
+        text-align: center;
+        margin: auto;
+        padding: 10px;
+      }
+
+      h1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+            
+      p {
+        font-family: sans-serif;
+        font-size: 20px;
+        text-align: center;
+      }
+
+      div.double {border-style: double;}
+      div.solid {border-style: solid;}
+
+      div {
+        background-color: lightgray;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      th, td {
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {background-color: ghostwhite;}
+
+    </style>
+</head>
+<body>   
+  <div class="container">
+    <div class="row">
+      <div class="col-4"></div>
+        <div class="col-8">
+        <h1>Welcome to My Curriculum Vitae</h1>
+        <div class="double">
+                <p>Name: Dwiari Anggara</p>
+                <p>Place and Date of Birth: Badung, 5 February 1986</p>
+                <p>Gender: Male</p>
+                <p>Nationality: Indonesian</p>
+                <p>Email: dwiopiangga@gmail.com</p>
+                <p>Hobby: Listening Japanese Song</p>
+                <p>Occupations: Operational Manager</p>
+                <p>Facebook: <a href="https://www.facebook.com/anggaraluna" target="_blank" rel="noopener">Agung Dwiari Anggaraluna</a></p>
+        </div>
+        <div class="double">
+            <h2>Want to know more about me?</h2>
+            <img src="background-01.jpg" style="width:100%">
+        </div>
+        </div>
+      </div>
+    </div>
+    <ul class="sidenav">
+        <li><a class="active" href="file:///Users/anggaraministry/Documents/Anggara/Programer/Final-Project/index.html">Home</a></li>
+        <li><a href="file:///Users/anggaraministry/Documents/Anggara/Programer/Final-Project/My-Project.html">My Project</a></li>
+        <li><a href="file:///Users/anggaraministry/Documents/Anggara/Programer/Final-Project/Contact-Me.html">Contact Me</a></li>
+        <li><a href="file:///Users/anggaraministry/Documents/Anggara/Programer/Final-Project/About-Me.html">About Me</a></li>
+    </ul>
+
+</body>
+</html>

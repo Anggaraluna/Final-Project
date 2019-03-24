@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/png" href="anggaraluna-logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Me</title>
+    <style>
+        body {
+          margin: 0;
+          padding: 10px;
+          background-color: #efefef;
+        }
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          border: 1px solid #e7e7e7;
+          background-color: #f3f3f3;
+          position: -webkit-sticky; /* Safari */
+          position: sticky;
+          top: 0;
+        }
+    
+        li {
+          float: center;
+        }
+    
+        li a {
+          display: block;
+          color: #666;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+    
+        li a:hover:not(.active) {
+          background-color: #ddd;
+        }
+    
+        li a.active {
+          color: white;
+          background-color: #4CAF50;
+        }
+    
+        ul.sidenav {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          width: 25%;
+          background-color: #f1f1f1;
+          position: fixed;
+          height: 100%;
+          overflow: auto;
+        }
+    
+        ul.sidenav li a {
+          display: block;
+          color: #000;
+          padding: 8px 16px;
+          text-decoration: none;
+        }
+     
+        ul.sidenav li a.active {
+          background-color: #4CAF50;
+          color: white;
+        }
+    
+        ul.sidenav li a:hover:not(.active) {
+          background-color: #555;
+          color: white;
+        }
+    
+        div.content {
+          margin-left: 25%;
+          padding: 1px 16px;
+          height: 1000px;
+        }
+    
+        @media screen and (max-width: 900px) {
+        ul.sidenav {
+          width: 100%;
+          height: auto;
+          position: relative;
+        }
+      
+        ul.sidenav li a {
+          float: left;
+          padding: 15px;
+        }
+      
+        div.content {margin-left: 0;}
+        }
+    
+        @media screen and (max-width: 400px) {
+        ul.sidenav li a {
+          text-align: center;
+          float: none;
+          }
+        }
+
+        textarea {
+            width: 100%;
+            height: 150px;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            background-color: #f8f8f8;
+            font-size: 16px;
+            resize: vertical;
+        }
+
+        .form-control {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Formspree -->
+    <div class="container">
+        <div class="row">
+          <div class="col-4"></div>
+          <div class="col-8">
+              <p>Please write anything that you want to know about me. With pleasure I will reply your message ASAP by email.</p>
+    <form action="https://formspree.io/dwiopiangga@gmail.com" method="POST">
+        <div class="form-group">
+            <label for="exampleInputEmail1"><strong>Email address</strong></label>
+            <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputMessage"><strong>Message</strong></label>
+            <input type="text" name="Message" class="form-control" id="Message" placeholder="Message">
+        </div>
+        <button type="submit" value="Send" class="btn btn-primary">Submit</button>
+    </form></div>
+        </div>
+    </div>
+    <ul class="sidenav">
+        <li><a class="active" href="file:///Users/anggaraministry/Documents/Anggara/Programer/Final-Project/index.html">Home</a></li>
+        <li><a href="file:///Users/anggaraministry/Documents/Anggara/Programer/Final-Project/My-Project.html">My Project</a></li>
+        <li><a href="file:///Users/anggaraministry/Documents/Anggara/Programer/Final-Project/Contact-Me.html">Contact Me</a></li>
+        <li><a href="file:///Users/anggaraministry/Documents/Anggara/Programer/Final-Project/About-Me.html">About Me</a></li>
+    </ul>
+
+</body>
+</html>
